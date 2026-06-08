@@ -22,14 +22,17 @@ public class Credencial
         {
             throw new ArgumentException("Site não pode ser vazio");
         }
+
         if (string.IsNullOrWhiteSpace(usuario))
         {
             throw new ArgumentException("Usuario não pode ser vazia");
         }
+
         if (string.IsNullOrWhiteSpace(senhaManual))
         {
             throw new ArgumentException("Senha não pode ser vazia");
         }
+
         this.Id = _idAux++;
         this.Site = site;
         this.Usuario = usuario;
@@ -41,7 +44,7 @@ public class Credencial
     private int CalcularForca(string senha)
     {
         int forca = 0;
-        
+
         if (senha.Length >= 8)
             forca += 25;
 
@@ -50,7 +53,7 @@ public class Credencial
 
         if (senha.Length >= 16)
             forca += 25;
-        
+
         if (senha.Any(c => char.IsLower(c)))
             forca += 25;
 
@@ -77,8 +80,8 @@ public class Credencial
         int forcaGerada = CalcularForca(_senhaGerada);
         Forca = Math.Max(forcaManual, forcaGerada);
     }
-    
-    public bool Expirada()
+
+    public bool EstaExpirada()
     {
         TimeSpan tempoPassado = DateTime.Now - CriadoEm;
         return tempoPassado > TimeSpan.FromDays(90);
