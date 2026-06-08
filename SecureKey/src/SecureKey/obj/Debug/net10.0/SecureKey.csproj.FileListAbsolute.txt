@@ -1,0 +1,15 @@
+/home/cauepereira/RiderProjects/SecureKey/SecureKey/src/SecureKey/obj/Debug/net10.0/SecureKey.GeneratedMSBuildEditorConfig.editorconfig
+/home/cauepereira/RiderProjects/SecureKey/SecureKey/src/SecureKey/obj/Debug/net10.0/SecureKey.AssemblyInfoInputs.cache
+/home/cauepereira/RiderProjects/SecureKey/SecureKey/src/SecureKey/obj/Debug/net10.0/SecureKey.AssemblyInfo.cs
+/home/cauepereira/RiderProjects/SecureKey/SecureKey/src/SecureKey/obj/Debug/net10.0/SecureKey.csproj.CoreCompileInputs.cache
+/home/cauepereira/RiderProjects/SecureKey/SecureKey/src/SecureKey/obj/Debug/net10.0/SecureKey.sourcelink.json
+/home/cauepereira/RiderProjects/SecureKey/SecureKey/src/SecureKey/bin/Debug/net10.0/SecureKey
+/home/cauepereira/RiderProjects/SecureKey/SecureKey/src/SecureKey/bin/Debug/net10.0/SecureKey.deps.json
+/home/cauepereira/RiderProjects/SecureKey/SecureKey/src/SecureKey/bin/Debug/net10.0/SecureKey.runtimeconfig.json
+/home/cauepereira/RiderProjects/SecureKey/SecureKey/src/SecureKey/bin/Debug/net10.0/SecureKey.dll
+/home/cauepereira/RiderProjects/SecureKey/SecureKey/src/SecureKey/bin/Debug/net10.0/SecureKey.pdb
+/home/cauepereira/RiderProjects/SecureKey/SecureKey/src/SecureKey/obj/Debug/net10.0/SecureKey.dll
+/home/cauepereira/RiderProjects/SecureKey/SecureKey/src/SecureKey/obj/Debug/net10.0/refint/SecureKey.dll
+/home/cauepereira/RiderProjects/SecureKey/SecureKey/src/SecureKey/obj/Debug/net10.0/SecureKey.pdb
+/home/cauepereira/RiderProjects/SecureKey/SecureKey/src/SecureKey/obj/Debug/net10.0/SecureKey.genruntimeconfig.cache
+/home/cauepereira/RiderProjects/SecureKey/SecureKey/src/SecureKey/obj/Debug/net10.0/ref/SecureKey.dll

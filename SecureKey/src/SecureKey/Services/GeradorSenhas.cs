@@ -20,7 +20,9 @@ public class GeradorSenhas
         
         if (!usarESP)
         {
-            todos = todos.Replace(ESP, string.Empty);
+            var caracteresFiltrados = todos.Where(c => !ESP.Contains(c));
+            
+            todos = string.Concat(caracteresFiltrados);
         }
 
         var sb = new StringBuilder(tamanho);
@@ -35,7 +37,7 @@ public class GeradorSenhas
         }
         return sb.ToString();
     }
-    private static int AvaliarForca(string senha)
+    public static int AvaliarForca(string senha)
     {
         int forca = 0;
         

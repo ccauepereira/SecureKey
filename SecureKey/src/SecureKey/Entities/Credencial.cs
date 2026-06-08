@@ -86,7 +86,6 @@ public class Credencial
         TimeSpan tempoPassado = DateTime.Now - CriadoEm;
         return tempoPassado > TimeSpan.FromDays(90);
     }
-
     public string VerSenha()
     {
         UltimoAcesso = DateTime.Now;
@@ -99,7 +98,7 @@ public class Credencial
 
         sb.AppendLine($"Usuario: {Usuario}");
         sb.AppendLine($"Site: {Site}");
-        sb.AppendLine($"Id: {Id}");
+        sb.AppendLine($"Id: {_idAux}");
         sb.AppendLine($"Forca: {Forca}");
         sb.AppendLine($"Criado em: {CriadoEm.ToString("dd/MM/yyyy")}");
         return sb.ToString();

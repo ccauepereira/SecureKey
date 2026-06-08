@@ -15,7 +15,7 @@ public class CofreSenhas
     private int _tentativas = 0;
     private const int maxTentativas = 3;
     
-    public CofreSenhas(string senhaMestra)
+    public CofreSenhas(string? senhaMestra)
     {
         if (string.IsNullOrWhiteSpace(senhaMestra) || senhaMestra.Length < 4)
         {

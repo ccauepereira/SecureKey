@@ -23,6 +23,7 @@ public class CredencialDTO
         this.Forca = credencial.Forca;
         this.Classificacao = SenhaNivel.Classificar(credencial.Forca);
         this.Expirada = credencial.EstaExpirada();
+        this.CriadoEm = CriadoEm;
     }
 
     public override string ToString()
